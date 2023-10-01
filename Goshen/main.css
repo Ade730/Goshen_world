@@ -1,0 +1,205 @@
+body {
+    font-size: 16px;
+    background-color:#160425;
+    color: white;
+  }
+  @media (min-width:500px) {
+    body{
+      font-size:30px;
+    }
+
+    p{
+      font-size: 20px;
+    }
+     .on-small{
+      margin-top: 170px;
+    }
+
+    .heads{
+      font-size: 24px;
+    }
+
+    .logo{
+      width: 250px;
+    }
+    .main-text{
+      font-size:110px;
+    }
+    .second-main{
+      font-size:40px;
+    }
+    
+    .hero-btn{
+      margin-top: 10px;
+      width: 230px;
+      font-size: 40px;
+    }
+
+    .hero-btn2{
+      margin-top: 10px;
+      width: 270px;
+      font-size: 20px;
+    }
+
+    .hero-btn3{
+      margin-top: 10px;
+      width: 190px;
+      font-size: 24px;
+    }
+
+
+    .hero-btn4{
+      margin-top: 10px;
+      width: 100px;
+      font-size: 20px;
+    }
+    
+    
+    .playstore{
+      width: 250px;
+      margin-top:20px;
+    } 
+
+    .market-trend{
+      font-size: 30px;
+    }
+
+    .subs{
+      font-size: 20px;
+    }
+  }
+  @media (min-width:768px) {
+    body {
+        font-size: 24px;
+    }
+  }
+  @media (min-width:1024px) {
+    body {
+        font-size: 13px;
+    }
+  }
+  @media (min-width:1280px) {
+    body {
+        font-size: 23px;
+    }
+    
+    
+    .logo{
+      width: 130px;
+    }
+    .main-text{
+      font-size:40px;
+    }
+    .second-main{
+      font-size:20px;
+    }
+    
+    .hero-btn{
+      margin-top: 5px;
+      width: 130px;
+      font-size:23px;
+    }
+    
+    .playstore{
+      width: 150px;
+      margin-top:10px;
+    } 
+
+    .market-trend{
+      font-size: 20px;
+    }
+
+    .subs{
+      font-size: 16px;
+    }
+
+    .heads{
+      font-size: 18px;
+    }
+
+    .hero-btn4{
+      margin-top: 10px;
+      width: 120px;
+      font-size: 15px;
+    }
+  }
+
+
+  .dot {
+    height: 25px;
+    width: 25px;
+    background:url(bitcoin.png);
+    background-size: contain;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .rectangle {
+    height: 50px;
+    width: 100px;
+    background:url(green\ chart.png);
+  }
+
+  .rectangle-3 {
+    height: 50px;
+    width: 100px;
+    background:url(green\ chart.png);
+  }
+
+  .rectangle-2 {
+    height: 50px;
+    width: 100px;
+    background:url(red\ chart.png);
+  }
+  
+  .blog-1-up{
+    position: relative;
+  }
+
+  .blog-1-down{
+    position: absolute;
+    bottom: 15%;
+    left: 9%;
+  }
+
+  .try{
+     animation: circle 7s  infinite;
+     transition: 0.5s;
+  }
+
+  
+  @keyframes circle {
+    0%{
+      transform:translateY(-15px);
+    }
+    100%{
+      transform:translateY(15px);
+    }
+  }
+
+
+  .social-icons a{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 100%;
+    color: #bb73f5;
+}
+
+.social-icons a:hover{
+    background-color:  rgba(0, 0, 0, 0.966) ;
+    color: white;
+}
+
+
+.market-update{
+  background-color:#51128169 ;
+}
+
+.market-update:focus{
+  background-color: #160425;
+  color: white;
+}
