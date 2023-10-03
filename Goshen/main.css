@@ -203,3 +203,7 @@ body {
   background-color: #160425;
   color: white;
 }
+
+.box-shad{
+  box-shadow: 1px 9px 19px #000000;
+}
